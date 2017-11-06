@@ -13,11 +13,11 @@ import java.util.ArrayList;
 // If we inherit from Bear and want to make it eat something else, then we're out of luck.
 // This Bear (and therefore also any subclasses which want to extend it) only eats Salmon. Not very extensible.
 
-public class Bear{
+public class Bear extends Food{
 
-    private ArrayList<Salmon> belly = new ArrayList<Salmon>();
+    private ArrayList<Food> belly = new ArrayList<>();
 
-    public void eat(Salmon food){
+    public void eat(Food food){
         if (!isBellyFull()){
             belly.add(food);
         }
