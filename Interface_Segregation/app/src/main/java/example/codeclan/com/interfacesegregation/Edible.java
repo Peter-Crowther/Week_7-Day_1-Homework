@@ -6,4 +6,11 @@ package example.codeclan.com.interfacesegregation;
 
 public interface Edible{
 
+//    public Salmon riverFish();
+//    public Seal iceFish();
+//    public Honey harvestHoney();
+//    public Bamboo harvestBamboo();
+
+    public void eat(Edible food);
+
 }

@@ -6,4 +6,8 @@ package example.codeclan.com.interfacesegregation;
 
 public class Honey implements Edible{
 
+
+    @Override
+    public void eat(Edible food) {
+    }
 }

@@ -17,15 +17,15 @@ public class Bear implements Bearable{
 
     private ArrayList<Edible> belly = new ArrayList<Edible>();
 
-    // pointless implementation
-    public Seal iceFish(){
-        return null;
-    }
-
-    // pointless implementation
-    public String climbIceberg(){
-        return null;
-    }
+//    // pointless implementation
+//    public Seal iceFish(){
+//        return null;
+//    }
+//
+//    // pointless implementation
+//    public String climbIceberg(){
+//        return null;
+//    }
 
     public int foodCount(){
         return belly.size();
